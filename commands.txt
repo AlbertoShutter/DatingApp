@@ -1,0 +1,7 @@
+1. Move to API folder and execute command to run the application
+    cd ./API/
+    dotnet watch --no-hot-reload
+
+2. Move to client folder and run the Angular application
+    cd ./client/
+    ng serve
