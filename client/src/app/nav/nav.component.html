@@ -12,6 +12,9 @@
             <li class="nav-item">
               <a class="nav-link" routerLink="/messages" routerLinkActive="active">Messages</a>
             </li>
+            <li *appHasRole="['Admin', 'Moderator']" class="nav-item">
+              <a class="nav-link" routerLink="/admin" routerLinkActive="active">Admin</a>
+            </li>
           </ng-container>
           <ul class="navbar-nav me-auto mb-2 mb-md-0">
             <li class="nav-item">
