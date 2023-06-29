@@ -1,6 +1,7 @@
 {
   "dependencies": {
     "@angular/core": "^15.2.9",
+    "@microsoft/signalr": "^7.0.7",
     "ngx-bootstrap": "^10.2.0"
   }
 }
